@@ -1,4 +1,4 @@
-var inputScreen = document.getElementById("inputScreen")
+var inputScreen = document.getElementById("inputScreen"), lastOp;
 
 let addNum = (number) => document.getElementById("inputScreen").value += number;
 
@@ -12,5 +12,9 @@ let deleteOne = () => {
 }
 
 let operators = (operator) => {
+    inputScreen.value += operator;
+}
 
+let resultado = () => {
+    inputScreen.value = eval(inputScreen.value);    
 }
