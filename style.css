@@ -173,6 +173,18 @@ body{
     grid-row: 9;
     grid-column: 3;
 }
+#punto{
+    grid-row: 9;
+    grid-column: 2;
+}
+#potencia{
+    grid-row: 5;
+    grid-column: 4;
+}
+#numeroPi{
+    grid-row: 5;
+    grid-column: 3;
+}
 #opeMas{
     grid-row: 8;
     grid-column: 5;
